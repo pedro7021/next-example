@@ -14,14 +14,14 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
-    font-family: ${({ theme }) => theme.font.family.default};
-    color: ${({ theme }) => theme.colors.darkText}
+    font-family: ${({ theme }) => theme.font.family};
+    color: ${({ theme }) => theme.colors.black}
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: ${({ theme }) => theme.font.family.default};
+    font-family: ${({ theme }) => theme.font.family};
     margin: ${({ theme }) => theme.spacings.large} 0;
     font-weight: 800;
-    color: ${({ theme }) => theme.colors.primary}
+    color: ${({ theme }) => theme.colors.black}
   }
 `;
